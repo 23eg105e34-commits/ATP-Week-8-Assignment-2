@@ -1,0 +1,22 @@
+###
+GET http://localhost:5000/user-api/users
+Content-Type: application/json
+
+{
+  "name": "Harsha",
+  "email": "harsha@gmail.com",
+  "dateOfBirth": "2002-05-10",
+  "mobileNumber": 9876543210
+}
+
+###
+GET http://localhost:5000/user-api/users
+
+###
+GET http://localhost:5000/user-api/users/65f2c9d1b4
+
+###
+PUT http://localhost:5000/user-api/users/65f2c9d1b4
+
+###
+DELETE http://localhost:5000/user-api/users/65f2c9d1b4
